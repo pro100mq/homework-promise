@@ -1,0 +1,23 @@
+{
+  "name": "homework-promise",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://pro100mq.github.io/homework-promise/",
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "parcel build src/index.html --no-cache --public-url /homework-promise",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.15.1",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^2.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
